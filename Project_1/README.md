@@ -1,5 +1,6 @@
-# Project Member: Cuiqing Li
-# Time: Dec. 2018
+### Project Member: Cuiqing Li
+### Time: Dec. 2018
+### Udacity Full Stack Nano-degree Project1
 
 ### Project Description:
 In this project, we need to use Python programming language to create a website for showing movie trailer! If you
