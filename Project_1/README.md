@@ -1,5 +1,5 @@
 ### Project Member: Cuiqing Li
-### Time: Dec. 2018
+### Time: Dec. 2017
 ### Udacity Full Stack Nano-degree Project1
 
 ### Project Description:
