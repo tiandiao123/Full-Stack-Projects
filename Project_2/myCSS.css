@@ -1,0 +1,46 @@
+.name{
+       position: absolute;
+       left: 800px;
+       top:100px;
+       text-decoration-color: blue;
+    }
+    .introduction{
+       position:absolute;
+       top:400px;
+       color: green;
+    }
+    .my_photo{
+       position: relative;
+       top:0px;
+       left:700px;
+
+    }
+    t.self_introduction{
+    	color: green;
+
+    }
+
+    div.project_view{
+       position: absolute;
+       display: table;
+       top: 890px;
+       width: 100%; /*Optional*/
+       table-layout: fixed; /*Optional*/
+       border-spacing: 10px; /*Optional*/
+    }
+
+    .project_example{
+    	position: relative;
+    	float:left;
+        width: 250px;
+        height: 190px;
+        display: table-cell;
+        margin-right: 50px;
+        left:150px;
+    }
+	.project_description{
+		position: relative;
+		color: red;
+		top:50px;
+		left:-12px;
+	}
