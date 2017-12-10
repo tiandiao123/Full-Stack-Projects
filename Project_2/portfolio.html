@@ -24,6 +24,25 @@
     	color: green;
 
     }
+
+    div.project_view{
+       position: absolute;
+       display: table;
+       top: 890px;
+       width: 100%; /*Optional*/
+       table-layout: fixed; /*Optional*/
+       border-spacing: 10px; /*Optional*/
+    }
+
+    .project_example{
+    	position: relative;
+    	float:left;
+        width: 250px;
+        height: 190px;
+        display: table-cell;
+        margin-right: 50px;
+        left:150px;
+    }
   </style>
 </head>
 <body>
@@ -41,6 +60,12 @@
   <p>Hello, My name is Cuiqing Li, and I am planning to have take Udacity Nano-degree classes to become a software engineer! I am glad that I can be enrolled in this class to learn computer science knowledge with you guys! Here is one of my photo:</p>>
 
   <img src="my_photo.jpg" class="my_photo"></img>
+</div>
+<hr style="border: 1px dashed black; top:850px; position: relative;" />
+<div class="project_view">
+   <div><img src="self_car.jpeg" class="project_example"></img></div>
+   <div><img src="image_classification.jpg" class="project_example"></img></div>
+   <div><img src="NLP.jpeg" class="project_example"></img></div>
 </div>
 
 </body>
