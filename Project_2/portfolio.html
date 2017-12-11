@@ -2,59 +2,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio of Cuiqing Li</title>
-  <style>
-    .name{
-       position: absolute;
-       left: 800px;
-       top:100px;
-       text-decoration-color: blue;
-    }
-    .introduction{
-       position:absolute;
-       top:400px;
-       color: green;
-    }
-    .my_photo{
-       position: relative;
-       top:0px;
-       left:700px;
-
-    }
-    t.self_introduction{
-    	color: green;
-
-    }
-
-    div.project_view{
-       position: absolute;
-       display: table;
-       top: 890px;
-       width: 100%; /*Optional*/
-       table-layout: fixed; /*Optional*/
-       border-spacing: 10px; /*Optional*/
-    }
-
-    .project_example{
-    	position: relative;
-    	float:left;
-        width: 250px;
-        height: 190px;
-        display: table-cell;
-        margin-right: 50px;
-        left:150px;
-    }
-	.project_description{
-		position: relative;
-		color: red;
-		top:50px;
-		left:-12px;
-	}
-  </style>
+  <link rel="stylesheet" type="text/css" href="myCSS.css">
 </head>
 <body>
 
 <div>
-  <img src="udacity_img.png" style="position:absolute;top:100px;left:200px;width:350px;height:250px">
+  <img src="photo/udacity_img.png" style="position:absolute;top:100px;left:200px;width:350px;height:250px">
   <div class = "name">
     <p class = "my_name" style="color: blue; font-size:250%;">Cuiqing Li</p>
     <p style="color:red; font-size:250%; margin-top:-20px">Project Show</p>
@@ -65,21 +18,21 @@
 <div class="introduction">
   <p>Hello, My name is Cuiqing Li, and I am planning to have take Udacity Nano-degree classes to become a software engineer! I am glad that I can be enrolled in this class to learn computer science knowledge with you guys! Here is one of my photo:</p>>
 
-  <img src="my_photo.jpg" class="my_photo"></img>
+  <img src="photo/my_photo.jpg" class="my_photo"></img>
 </div>
 <hr style="border: 1px dashed black; top:850px; position: relative;" />
 <div class="project_view">
-   <div>
-      <img src="self_car.jpeg" class="project_example"></img>
-<!--       <p class="project_description">Here is my self-dring car project about <a href="https://github.com/tiandiao123/Unscented-Kalman-Filter">kalman fileter</a></p> -->
+   <div class="project_example">
+      <img src="photo/self_car.jpeg" class="project_example"></img>
+      <p class="project_description">Here is my self-driving car project about <a href="https://github.com/tiandiao123/Unscented-Kalman-Filter">kalman filter</a></p>
    </div>
    <div class="project_example">
-      <img src="image_classification.jpg" class="project_example"></img>
+      <img src="photo/image_classification.jpg" class="project_example"></img>
       <p class="project_description">Here is my deep learning project about <a href="https://github.com/tiandiao123/Vehicle-Detection">image classification</a></p>
    </div>
    <div class="project_example">
-      <img src="NLP.jpeg" class="project_example"></img>
-<!--       <p class="project_description">Here is my NLP project about <a href="https://github.com/tiandiao123/language-processing-Project">text classification</a></p> -->
+      <img src="photo/NLP.jpeg" class="project_example"></img>
+      <p class="project_description">Here is my NLP project about <a href="https://github.com/tiandiao123/language-processing-Project">text classification</a></p>
    </div>
 </div>
 
