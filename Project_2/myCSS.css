@@ -1,7 +1,26 @@
- .name{
+    div {
+       display: block;
+    }
+
+	.container {
+		position: absolute;
+		top: 890px;
+		justify-content: space-between;
+	    display: flex;
+	    flex-flow: row wrap;
+	    width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+	}
+    
+    .c1, .c2, .c3, .c4{
+    	width:20%;
+    }
+
+     .name{
        position: absolute;
        left: 800px;
-       top:100px;
+       top: 100px;
        text-decoration-color: blue;
     }
     .introduction{
