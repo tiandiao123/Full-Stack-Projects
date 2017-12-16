@@ -4,7 +4,7 @@
 
 	.container {
 		position: absolute;
-		top: 890px;
+		top: 1190px;
 		justify-content: space-between;
 	    display: flex;
 	    flex-flow: row wrap;
@@ -29,10 +29,10 @@
        color: green;
     }
     .my_photo{
-       position: relative;
-       top:0px;
-       left:700px;
-
+       position: absolute;
+       top:550px;
+       margin-left: 10%;
+       width: 85%;
     }
     t.self_introduction{
       color: green;
