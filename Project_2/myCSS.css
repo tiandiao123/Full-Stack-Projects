@@ -1,5 +1,9 @@
     div {
-       display: block;
+        display: block;
+    }
+
+    .introduction p {
+        font-size: 30px; /*or any preferred size*/
     }
 
 	.container {
@@ -17,50 +21,53 @@
     	width:20%;
     }
 
-     .name{
-       position: absolute;
-       left: 800px;
-       top: 100px;
-       text-decoration-color: blue;
+    .name{
+        position: absolute;
+        left: 800px;
+        top: 100px;
+        text-decoration-color: blue;
     }
+    
     .introduction{
-       position:absolute;
-       top:400px;
-       color: green;
+        position:absolute;
+        top:400px;
+        color: green;
     }
+    
     .my_photo{
-       position: absolute;
-       top:550px;
-       margin-left: 10%;
-       width: 85%;
+        position: absolute;
+        top:550px;
+        margin-left: 10%;
+        width: 85%;
     }
+
+    
     t.self_introduction{
-      color: green;
-
+        color: green;
     }
 
-    div.project_view{
-       position: absolute;
-       display: table;
-       top: 890px;
-       left:0px;
-       width: 100%; 
-       table-layout: fixed; 
-       border-spacing: 10px; 
-    }
+/*    div.project_view{
+        position: absolute;
+        display: table;
+        top: 890px;
+        width: 100%; 
+        table-layout: fixed; 
+        border-spacing: 10px; 
+    }*/
 
     .project_example{
-      position: relative;
-      float:left;
+        position: relative;
+        float:left;
         width: 250px;
         height: 190px;
         display: table-cell;
         margin-right: 50px;
         left:150px;
     }
-  .project_description{
-    position: relative;
-    color: red;
-    top:50px;
-    left:150px;
-  }
+
+    .project_description{
+        position: relative;
+        color: red;
+        top:50px;
+        left:150px;
+    }
